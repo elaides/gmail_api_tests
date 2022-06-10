@@ -1,0 +1,13 @@
+{
+  "cypress-watch-and-reload": {
+    "watch": "spec.ts"
+  },
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"]
+  },
+  "include": ["**/*.ts", "cypress/plugins/index.ts", "./support", "../index.ts"],
+  
+  
+}
